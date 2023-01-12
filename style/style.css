@@ -315,6 +315,7 @@ body {
   font-weight: 500;
   margin-bottom: 2rem;
 }
+
 .ishu {
   background-color: dimgray;
   color: #fff;
@@ -393,6 +394,7 @@ body {
   font-size: 18px;
   margin-top: 20px;
   font-weight: 300;
+  width: 23rem;
 }
 
 .achievementsMid > div > p > strong {
@@ -402,7 +404,7 @@ body {
 
 /*------ buttom ------*/
 .button {
-  border: 1.9px solid black;
+  border: 3px solid black;
   background-color: red;
   border-radius: 4rem;
   padding: 5px;
@@ -417,20 +419,24 @@ body {
   text-decoration: none;
   text-align: center;
   padding: 15px;
+  font-size: 16px;
 }
 
 /*============= footer  ==============*/
 
-.footer {
+.footer {     
   background: linear-gradient(45deg, #d51097 0%, #440fcb 100%);
-  padding: 5rem;
+  padding: 2rem;
 }
 .footHead {
   color: #fff;
   text-align: center;
-  padding-bottom: 2rem;
-  font-weight: 400;
+  font-weight: 600;
+  padding-bottom: 3rem;
+  font-size: 55px;
+  padding-top: 2px;
 }
+
 .criteria > tbody {
   color: #fff;
   border: 1px solid #fff;
@@ -441,11 +447,12 @@ body {
 .tablewraper table td {
   border: 1px solid #fff;
   padding: 1rem;
-  font-size: 18px;
+  font-size: 20px;
 }
 .tablewraper {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 20rem;
+  width: 60rem;
+  margin-bottom: 6rem;
 }
 
 
@@ -464,7 +471,7 @@ body {
 
 
 /* ----------------- */
-/* Media Queries */
+  /* Media Queries */
 /* ----------------- */
 
 @media screen and (max-width: 1024px) {
@@ -516,6 +523,12 @@ body {
   }
   .achievementsMid > div > p > strong {
     font-size: 1.2rem;
+  }
+  .footHead {
+    font-size: 3rem;
+  }
+  .tablewraper{
+    width: 23rem;
   }
 }
 
@@ -578,8 +591,8 @@ body {
     font-size: 12px;
   }
   .tablewraper {
-    margin-right: 1rem;
-    margin-left: 1rem;
+    width: 23rem;
+    margin-left: -3px;
   }
 }
 
@@ -712,18 +725,20 @@ body {
   }
   .achievementsMid > div > p {
     font-size: 11px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left:  33px;
+    margin-right: 5px;
+    width: 16rem;
   }
   .button {
     margin-left: 6rem;
   }
   .footHead {
     font-size: 2rem;
-    margin-left: -20px;
+    margin-left: 1px;
   }
   .tablewraper {
-    margin-left: -33px;
+    margin-left: -32px;
+    width: 19rem;
   }
   .digital{
     padding:1rem;
